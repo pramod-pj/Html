@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+    .parent{
+        width: 400px;
+        height: 400px;
+        background-color: rgb(132, 6, 191);
+        position: relative;
+        top:40px;
+        left:30px;
+    
+}
+@media (max-width: 450px)and (max-width: 450px){
+    .parent{
+        height:500px;
+        width:500px;
+        background-color: rgb(27, 194, 174);
+    }
+    .child{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        position: absolute;
+        top:170px;
+        right:100px;
+        left:200px;
+    }
+
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top:170px;
+    right:100px;
+    left:200px;
+}
+</style>
+
+<div class="parent">Parent</div>
+    <div class="child">Child</div>
+</body>
+</html>

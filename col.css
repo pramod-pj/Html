@@ -1,0 +1,43 @@
+#main-title {
+  text-decoration: underline;
+  color: blue;
+}
+
+.section {
+  background-color: rgb(214, 215, 214);
+}
+
+p {
+  font-size: 16px;
+}
+
+.intro {
+  font-style: italic;
+}
+
+.fav {
+  font-weight: bold;
+}
+
+.special:hover {
+  color: #ec9f00;
+  font-weight: bold;
+  border: 2px solid rgb(96, 29, 102);
+  background-color: #095097;
+}
+
+body {
+  position: center;
+}
+.special {
+  background-color: rgba(247, 247, 247, 0.5);
+  color: #ff4554;
+}
+
+img {
+  position: center;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+
